@@ -52,11 +52,10 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("coolbell.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("pongbackground.mp3");
+export var ambientSound = new soundFile("8bitwes.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
-ambientSound.player.playbackRate = 0.5
 
 export var adventureMusic = new soundFile("pongbackground.mp3");
 soundArray.push(adventureMusic);
