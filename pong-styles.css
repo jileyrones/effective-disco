@@ -84,7 +84,7 @@ body {
 
 .score {
   display: block;
-  position: absolute;
+  position: right;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
 }
