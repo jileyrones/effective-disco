@@ -16,7 +16,7 @@ import {
   adventureMusic,
   villageMusic,
   playDeferredSounds
-} from "/sounds/";
+} from "./pong-audio.js";
 //Defaults for game objects
 import { Game, Ball, Paddle } from "./pong-classes.js";
 //Game Events
